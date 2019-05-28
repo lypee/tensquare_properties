@@ -6,7 +6,7 @@
 #      label: master
 #      uri: http://127.0.0.1:12000
 server:
-  port: 9031
+  port: 9001
 spring:
   rabbitmq:
     host: 39.108.189.144
