@@ -1,0 +1,2 @@
+# tensquare_properties
+springCloudConfig配置中心
