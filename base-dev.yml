@@ -8,6 +8,8 @@
 server:
   port: 9001
 spring:
+  rabbitmq:
+    host: 39.108.189.144
   application:
     name: tensquare-base
   datasource:
