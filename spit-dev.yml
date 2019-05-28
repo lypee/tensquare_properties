@@ -18,3 +18,4 @@ eureka:
   client:
     service-url:
       defaultZone: http://127.0.0.1:6868/eureka/
+ ip: 127.0.0.1
