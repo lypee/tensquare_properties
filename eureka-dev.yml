@@ -1,13 +1,12 @@
 server:
   port: 6868
-
-#spring:
-#  cloud:
-#    config:
-#      name: eureka
-#      profile: dev
-#      label: master
-#      uri: http://127.0.0.1:12000
+spring:
+ cloud:
+   config:
+     name: eureka
+     profile: dev
+     label: master
+     uri: http://127.0.0.1:12000
 eureka:
   client:
     register-with-eureka: false
