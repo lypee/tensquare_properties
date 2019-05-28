@@ -9,7 +9,7 @@ spring:
     name: tensquare-recruit
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/tensquare_recruit?characterEncoding=utf-8
+    url: jdbc:mysql://39.108.189.144:3306/tensquare_recruit?characterEncoding=utf-8
     username: root
     password: Ly123456
   jpa:
