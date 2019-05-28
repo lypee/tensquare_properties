@@ -12,7 +12,6 @@ spring:
     host: 39.108.189.144
     username: lypee
     password: lypee
-    virtual-host: /
   application:
     name: tensquare-base
   datasource:
