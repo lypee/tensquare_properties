@@ -1,6 +1,10 @@
 server:
   port: 9005
 spring:
+  rabbitmq:
+    host: 39.108.189.144
+    username: lypee
+    password: lypee
   application:
     name: tensquare-gathering
   datasource:
