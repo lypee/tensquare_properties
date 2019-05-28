@@ -19,9 +19,30 @@ zuul:
     tensquare-user:
       path: /user/**
       serviceId: tensquare-user
+    tensquare-admin:
+      path: /admin/**
+      serviceId: tensquare-user
+    tensquare-friend:
+      path: /friend/**
+      serviceId: tensquare-friend
+    tensquare-gathering:
+      path: /gathering/**
+      serviceId: tensquare-gathering
     tensquare-qa:
       path: /qa/**
       serviceId: tensquare-qa
+    tensquare-enterprise:
+      path: /enterprise/**
+      serviceId: tensquare-recruit
+    tensquare-recruit:
+      path: /recruit/**
+      serviceId: tensquare-recruit
+    tensquare-article:
+      path: /article/**
+      serviceId: tensquare-article
+    tensquare-spit:
+      path: /spit/**
+      serviceId: tensquare-spit
 jwt:
   config:
     key: "lypee"
