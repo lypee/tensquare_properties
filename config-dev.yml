@@ -1,0 +1,19 @@
+server:
+  port: 12000
+spring:
+  application:
+    name: tensquare-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/lypee/tensquare_properties.git
+  rabbitmq:
+    host: 39.108.189.144
+    username: lypee
+    password: lypee
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-regresh
