@@ -1,6 +1,10 @@
 server:
   port: 6868
 spring:
+ rabbitmq:
+   host: 39.108.189.144
+   username: lypee
+   password: lypee
  cloud:
    config:
      name: eureka
